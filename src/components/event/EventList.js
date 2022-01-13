@@ -9,7 +9,14 @@ const EventList = (props) => {
       <ul>
         {props.events.map((eventList) => (
           <li key={eventList.key}>
-            {eventList.title}({eventList.date})
+            <div >
+              <h2>{eventList.title}</h2>
+              <p>{eventList.desc}</p>
+            </div>
+            <div>
+              <h3>{eventList.time}</h3>
+              <p>{eventList.date}</p>
+            </div>
           </li>
         ))}
       </ul>

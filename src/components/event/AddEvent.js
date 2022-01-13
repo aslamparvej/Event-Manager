@@ -7,8 +7,8 @@ import classes from "./AddEvent.module.css";
 const AddEvent = (props) => {
   const [eventTitle, setEventTitle] = useState("");
   const [eventDescription, setEventDescription] = useState("");
-  const [eventTime, setEventTime] = useState("");
-  const [eventDate, setEventDate] = useState("");
+  const [eventTime, setEventTime] = useState("12:00");
+  const [eventDate, setEventDate] = useState("2022-01-28");
   const [error,setError] = useState();
 
   const onSubmitHandler = (e) => {
