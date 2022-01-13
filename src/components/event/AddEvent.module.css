@@ -10,8 +10,7 @@
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
-  
-.input input,.input textarea {
+.input input,.input textarea{
     font: inherit;
     display: block;
     width: 100%;
